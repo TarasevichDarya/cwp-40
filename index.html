@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redux</title>
+  <style type="text/css">
+  body{
+  	width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 50px; 
+	background-image: url(./images/background.png);
+	font-family: monospace;
+	display: block;
+	text-align: -webkit-center;
+	text-align: -moz-center;
+	text-align: -ms-center;
+	text-align: -o-center;
+  }
+  .Imput {
+  	height: 30px;
+  	width: 120px;
+  	border-radius: 30px;
+  	padding-left: 5px;
+  	border: 0;
+  	margin: 5px;
+  }
+  .Buttom {
+  	height: 30px;
+  	background-color: #6755C1;
+  	border: 0;
+  	margin: 5px;
+  	border-radius: 5px;
+  	color: #fff;
+  }
+  .Select {
+  	padding-left: 10px;
+  	height: 30px;
+  	width: 120px;
+  	border-radius: 30px;
+  	padding-left: 20px;
+  	border: 0;
+  	margin: 5px;
+  	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  	background: url(./images/menu_arrow.png) 90% / 6% no-repeat #fff;
+  	box-shadow: 0;
+  	border-style: solid;
+  }
+  .Text {
+  	font-family: monospace;
+  	font-size: 20px;
+  	margin-top: -10px; 
+  }
+  .CarList {
+  float: left;
+	margin-left: 5%; 
+  }
+  .SpanTime {
+  	margin-left: 5px;
+  }
+  .TimeList {
+  float: right;
+	margin-right: 5%;
+	margin-top: -180px;
+  }
+  .CountPath{
+    
+    margin-right: 20%;
+    margin-bottom: 120px;
+  }
+  .time-panel {
+      margin-top:8px;
+    }
+
+    .time-panel__button {
+      display: inline-block;
+      width: 86px;
+      height: 35px;
+      line-height: 35px;
+      margin-right: 8px;
+      text-align: center;
+      background: #f44336;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .time-panel__button:hover {
+      background: #EF5350;
+    }
+
+    .time-panel__button:active {
+      background: #E53935;
+    }
+
+    .time-panel__button_disabled, .time-panel__button_disabled:hover, .time-panel__button_disabled:active {
+      background: gray;
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="public/bundle.js"></script>
+  <script src="https://unpkg.com/redux-undo@1.0.0-beta7/dist/redux-undo.js"></script>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/react-router-dom/umd/react-router-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+</body>
+</html>
